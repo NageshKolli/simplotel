@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/dr2jqbir9/image/upload/v1697708334/img1_uq92yb.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding-left: 40px;
+    margin: 0px;
+}
+
+
+
+.navbar-button {
+    color: black;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 650;
+    font-family: sans-serif;
+}
+
+.navbar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    align-self: flex-end;
+
+}
+
+.card {
+    position: absolute;
+    top: 33%;
+    left: 5%;
+    width: 40vw;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(239, 22, 37, 0.323);
+    color: white;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(110deg, rgb(236, 149, 193), rgb(233, 152, 81), rgb(233, 206, 57));
+    height: 10vh;
+
+}
+
+.line {
+    background-color: grey;
+    height: 1vh;
+
+}
+
+.bottom-container {
+    background-image: linear-gradient(110deg, rgb(236, 149, 193), rgb(233, 152, 81), rgb(233, 206, 57));
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh auto;
+    text-align: center;
+
+
+}
+
+.b-heading {
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 0.5rem;
+    font-size: 35px;
+}
+
+.b-card {
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    padding: 15px 5px 15px 5px;
+    border-radius: 0 50px 0 50px;
+    background-color: white;
+    margin-bottom: 50px;
+
+
+
+}
+
+.card-b {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 0 50px 0 0;
+}
+
+.c-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.c-paragraph {
+    font-size: 15px;
+    color: black;
+    font-family: "Roboto";
+}
+
+.button {
+    background-color: rgb(250, 206, 215);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 100px;
+    color: black;
+
+}
+
+@media screen and (max-width: 1250px) {
+    .navbar {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-button {
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-button {
+        font-size: 10px;
+
+    }
+
+    .icon {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .icon {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-button {
+        font-size: 8px;
+
+    }
+
+    .icon {
+        font-size: 8px;
+    }
+
+    .navbar-icons {
+        gap: 5px;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .navbar-button {
+        font-size: 6px;
+
+    }
+}
